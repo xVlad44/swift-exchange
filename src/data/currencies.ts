@@ -22,6 +22,7 @@ export const currencies: Currency[] = [
   { code: 'CZK', name: 'Czech Koruna', flag: '🇨🇿' },
   { code: 'HUF', name: 'Hungarian Forint', flag: '🇭🇺' },
   { code: 'RUB', name: 'Russian Ruble', flag: '🇷🇺' },
+  { code: 'RON', name: 'Romanian Leu', flag: '🇷🇴' },
   { code: 'TRY', name: 'Turkish Lira', flag: '🇹🇷' },
   { code: 'MXN', name: 'Mexican Peso', flag: '🇲🇽' },
   { code: 'ZAR', name: 'South African Rand', flag: '🇿🇦' },

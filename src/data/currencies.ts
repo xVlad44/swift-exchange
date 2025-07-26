@@ -1,0 +1,35 @@
+
+import { Currency } from '@/types/currency';
+
+export const currencies: Currency[] = [
+  { code: 'USD', name: 'US Dollar', flag: '🇺🇸' },
+  { code: 'EUR', name: 'Euro', flag: '🇪🇺' },
+  { code: 'GBP', name: 'British Pound', flag: '🇬🇧' },
+  { code: 'JPY', name: 'Japanese Yen', flag: '🇯🇵' },
+  { code: 'CAD', name: 'Canadian Dollar', flag: '🇨🇦' },
+  { code: 'AUD', name: 'Australian Dollar', flag: '🇦🇺' },
+  { code: 'CHF', name: 'Swiss Franc', flag: '🇨🇭' },
+  { code: 'CNY', name: 'Chinese Yuan', flag: '🇨🇳' },
+  { code: 'INR', name: 'Indian Rupee', flag: '🇮🇳' },
+  { code: 'BRL', name: 'Brazilian Real', flag: '🇧🇷' },
+  { code: 'KRW', name: 'South Korean Won', flag: '🇰🇷' },
+  { code: 'SGD', name: 'Singapore Dollar', flag: '🇸🇬' },
+  { code: 'HKD', name: 'Hong Kong Dollar', flag: '🇭🇰' },
+  { code: 'NOK', name: 'Norwegian Krone', flag: '🇳🇴' },
+  { code: 'SEK', name: 'Swedish Krona', flag: '🇸🇪' },
+  { code: 'DKK', name: 'Danish Krone', flag: '🇩🇰' },
+  { code: 'PLN', name: 'Polish Zloty', flag: '🇵🇱' },
+  { code: 'CZK', name: 'Czech Koruna', flag: '🇨🇿' },
+  { code: 'HUF', name: 'Hungarian Forint', flag: '🇭🇺' },
+  { code: 'RUB', name: 'Russian Ruble', flag: '🇷🇺' },
+  { code: 'TRY', name: 'Turkish Lira', flag: '🇹🇷' },
+  { code: 'MXN', name: 'Mexican Peso', flag: '🇲🇽' },
+  { code: 'ZAR', name: 'South African Rand', flag: '🇿🇦' },
+  { code: 'AED', name: 'UAE Dirham', flag: '🇦🇪' },
+  { code: 'SAR', name: 'Saudi Riyal', flag: '🇸🇦' },
+  { code: 'THB', name: 'Thai Baht', flag: '🇹🇭' },
+  { code: 'MYR', name: 'Malaysian Ringgit', flag: '🇲🇾' },
+  { code: 'PHP', name: 'Philippine Peso', flag: '🇵🇭' },
+  { code: 'IDR', name: 'Indonesian Rupiah', flag: '🇮🇩' },
+  { code: 'VND', name: 'Vietnamese Dong', flag: '🇻🇳' }
+];
